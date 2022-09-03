@@ -3,11 +3,11 @@
 
 1- Instalar dependencias ( por las dudas ) 
 
-npm install
+- npm install
 
 2- Iniciar aplicacion
 
-npx react-native run-android 
+- npx react-native run-android 
 
 Va a demorar porque va a "descargar" e instalar la app en su dispositivo virtual
 
