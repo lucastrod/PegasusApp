@@ -131,7 +131,58 @@ export const styles = StyleSheet.create({
         //position:'relative',
     },
 
-    //Contacto
+    //Lista Datos Alumnos
+    menuContainerDatosAlumnos: {
+        alignItems: 'flex-start',
+        marginTop:'10%',
+        marginRight:'30%',
+        justifyContent: 'space-around',
+        flex: 0.4,
+        //backgroundColor:'red',
+        flexDirection:'column',
+    },
+
+    textoAlumnos: {
+        fontSize: 16,
+        fontFamily: 'Gilroy-ExtraLight',
+        color: 'black',
+        //marginLeft:10,
+    },
+
+    //Botones
+    boton: {
+        width: 110,
+        height: 40,
+        backgroundColor: '#7796B3',
+        borderRadius: 30,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginRight: 10,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 10,
+        },
+        shadowOpacity: 0.24,
+        shadowRadius: 7,
+        elevation: 9,
+
+
+    },
+    textoBoton: {
+        fontSize: 16,
+        fontFamily: 'Gilroy-ExtraBold',
+        color: 'white',
+    },
+    textoHome:{
+        fontSize: 16,
+        fontFamily: 'Gilroy-ExtraBold',
+        color:'#6EA4F4'
+    },
+
+
+
+    //Contacto Institucion
 
     menuContainerDatosInstitucion: {
         justifyContent: 'space-around',
@@ -173,5 +224,19 @@ export const styles = StyleSheet.create({
         fontWeight:'700',
         marginTop:10,
         textAlign:'left',
+    },
+
+
+
+    //Contacto Docentes
+    menuContainerDatosDocentes: {
+        alignItems: 'center',
+        marginTop:'20%',
+        marginRight:'30%',
+        justifyContent: 'space-around',
+        flex: 0.4,
+        //backgroundColor:'red',
+        flexDirection:'column',
+        
     },
 });
